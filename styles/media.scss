@@ -1,0 +1,32 @@
+@import "variables.scss";
+
+// 1400px+
+@media #{$ui-desktop-large} {
+  * {
+  }
+}
+
+// 1024px-
+@media #{$ui-tablet-large} {
+  * {
+  }
+}
+
+// 768px-
+@media #{$ui-tablet} {
+  * {
+  }
+}
+
+// 480px-
+@media #{$ui-mobile} {
+  body {
+    padding: 5px;
+  }
+}
+
+// 320px-
+@media #{$ui-mobile-small} {
+  * {
+  }
+}

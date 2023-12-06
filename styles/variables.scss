@@ -1,0 +1,36 @@
+@import "fonts.scss";
+
+$color-dark: #002394;
+$color-middle: #0049FF;
+$color-light: #EDFAFF;
+$color-accent: #55C5FF;
+$color-accent-light: #DDF3FF;
+$color-black: #101010;
+$color-inactive: #B1B2BA;
+$color-grey: #696E77;
+$color-grey-light: #101010cc;
+$color-background: #FAFDFF;
+$color-white: #FFFFFF;
+$color-red: #E04F5F;
+$color-shadow: rgba(186, 231, 255, 0.80);
+
+$default-font: roboto-st, sans-serif;
+$default-line-height: 1.65;
+$default-font-size: 16px;
+
+$ui-index-1: 1; // using for elements that should overlap elements in standard flow
+$ui-index-2: 2; // using for elements that should overlap elements in standard flow
+$ui-index-3: 3; // using for blurred masks
+$ui-index-4: 4; // using for sidebar and header
+$ui-index-5: 5; // using for modal
+$ui-index-6: 6; // overlaps everything
+
+$ui-desktop-large: 'screen and (width >= 1400px)';
+$ui-tablet-large: 'screen and (width < 1024px)';
+$ui-tablet: 'screen and (width < 768px)';
+$ui-mobile: 'screen and (width < 480px)';
+$ui-mobile-small: 'screen and (width <= 320px)';
+
+$ui-mouse-device: '(hover: hover) and (pointer: fine)';
+$ui-touch-device: '(hover: none) and (pointer: coarse)';
+$ui-non-touch-devices: '(hover: hover) and (pointer: fine)';
