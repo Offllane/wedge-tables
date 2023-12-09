@@ -73,6 +73,10 @@ body {
   font-size: 18px;
 }
 
+.main-page-wrapper {
+  width: 100%;
+}
+
 .wrapper {
   position: relative;
   width: 100%;
